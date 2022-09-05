@@ -1,0 +1,148 @@
+/*//////////////////////////////////////////////////////////////////
+[ Create Channel ]*/
+
+/* =====[ Create Channel Private ]===== */
+.createChannelPrivate {
+	/* Style */
+	color: #dcddde;
+	background-color: #36393f;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	border-radius: 5px;
+	/* Position */
+	height: 100%;
+	max-width: 224px;
+	margin-left: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	flex-direction: column
+}
+
+/* Header */
+.createChannelPrivate-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 15px
+}
+.createChannelPrivate-header>.title {
+	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center
+}
+
+/* Body */
+.createChannelPrivate-body {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 21px
+}
+.createChannelPrivate-body>.title-warning {
+	/* Style */
+	color: #da4040;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: color .2s ease-in-out;
+	/* Position */
+	text-align: center;
+	margin-left: 2px;
+	margin-bottom: 8px
+}
+.createChannelPrivate-body>.input {
+	/* Style */
+	background-color: rgba(0,0,0,0.1);
+	color: #dcddde;
+	font-size: 16px;
+	border-radius: 3px;
+	user-select: text;
+	transition: border-color .2s ease-in-out;
+	/* Position */
+	padding: 0px 10px;
+	width: 182px;
+	height: 32px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3)
+}
+.createChannelPrivate-body>.input:hover {
+	border-color: #040405
+}
+.createChannelPrivate-body>.input:focus {
+	border-color: #7289da
+}
+
+/* Footer */
+.createChannelPrivate-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 15px
+}
+
+/* =====[ Create Channel Groupe ]===== */
+.createChannelGroupe {
+	/* Style */
+	color: #dcddde;
+	background-color: rgba(79,84,92,0.16);
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	border-radius: 5px;
+	/* Position */
+	height: 100%;
+	max-width: 224px;
+	margin-left: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	flex-direction: column
+}
+
+/* Header */
+.createChannelGroupe-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 15px
+}
+.createChannelGroupe-header>.title {
+	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center
+}
+
+/* Body */
+.createChannelGroupe-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 10px
+}
+.createChannelGroupe-body>.input {
+	/* Style */
+	background-color: rgba(0,0,0,0.1);
+	color: #dcddde;
+	font-size: 16px;
+	border-radius: 3px;
+	user-select: text;
+	transition: border-color .2s ease-in-out;
+	/* Position */
+	padding: 0px 10px;
+	width: 180px;
+	height: 32px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3)
+}
+
+/* Footer */
+.createChannelGroupe-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 15px
+}

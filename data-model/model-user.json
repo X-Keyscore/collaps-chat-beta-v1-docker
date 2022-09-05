@@ -1,0 +1,22 @@
+{
+  "id": "id",
+  "pseudo": "pseudo",
+  "password": "password",
+  "activity": "activity",
+  "channels": [
+    {
+      "id": "id",
+      "type": "type",
+      "recipients": {
+        "id": "id"
+      },
+      "messages": [
+        {
+          "sender": "f650a09d-c971-4140-ac1b-9a2355d11ce4",
+          "date": "date",
+          "text": "test"
+        }
+      ]
+    }
+  ]
+}

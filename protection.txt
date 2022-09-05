@@ -1,0 +1,12 @@
+Faire :
+Chiffrement de bout en bout
+Chiffrement des fichier
+Chiffrement des données local
+Protéger les requêtes
+Protéger le code
+
+Fait :
+Protection accès serveur avec token
+Mot de passe chiffrer par le client
+Pas de connection multiple token unique pour chaque connection
+
